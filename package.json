@@ -1,0 +1,22 @@
+{
+  "name": "open-protocol-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg ."
+  },
+  "pkg": {
+    "scripts": "./index.js",
+    "outputPath": "./bin"
+  },
+  "bin": "./index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-open-protocol": "^1.1.1",
+    "pkg": "^5.8.1"
+  }
+}
